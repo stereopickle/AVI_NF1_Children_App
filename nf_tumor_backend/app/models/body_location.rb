@@ -1,0 +1,2 @@
+class BodyLocation < ApplicationRecord
+end

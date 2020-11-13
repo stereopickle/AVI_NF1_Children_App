@@ -1,0 +1,2 @@
+class Tumor < ApplicationRecord
+end

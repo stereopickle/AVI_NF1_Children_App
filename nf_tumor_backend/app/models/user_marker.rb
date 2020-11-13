@@ -1,0 +1,2 @@
+class UserMarker < ApplicationRecord
+end

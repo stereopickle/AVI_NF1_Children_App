@@ -1,0 +1,2 @@
+class Freckle < ApplicationRecord
+end

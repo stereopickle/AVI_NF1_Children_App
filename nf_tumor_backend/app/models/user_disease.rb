@@ -1,0 +1,2 @@
+class UserDisease < ApplicationRecord
+end
