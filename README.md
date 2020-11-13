@@ -19,20 +19,28 @@ We approached these problems with three goals in mind.
 - Additionally, the users can add more in-depth log and pictures of skin lesions. When the user uploads a picture of a skin lesion, we classify the lesions using the image classification model to inform the user as well as to optimize the lesion image storage.
 - When additional logs are made that confirm a diagnosis of a new condition or melanomas, we retrain our models based on this data.
 
+*You can view codes and our model under RESEARCH folder
+
 ## Conclusion/Discussion
+AVI is a fun and simple approach to engage children with NF and to collect possibly longitudinal data using NLP and machine learning. We want to provide children with NF a safe place to discuss their symptoms and to feel that they are never in this alone while supporting the research community to end the NF. Currently, our prototype targets children with NF1 diagnosis, but we hope to expand it to the children with risk factors of NF2. This may shed a light on identifying the early signs of development of NF2. 
 
 
 ### Please make sure you address ALL of the following:
 
 #### *1. What additional data would you like to have*
+Our app is designed to collect the data it needs on its own. But to validate the diagnostic data and melanomas to reliably include them to update our model, it'd be ideal to collaborate with the physician side platform. 
 
 #### *2. What are the next rational steps?* 
+Our app is currently a rough prototype. The immediate next step is to fine-tune the user experience and to host it on a reliable server for further testing and complete data engineering. Please see our **3-Months Plan** section for more details.
 
 #### *3. What additional tools or pipelines will be needed for those steps?*
+We need to develop a pipeline to automatically update our models, which will require us to decide how to validate diagnostic data. This may be done as a collaboration with another platform targeting the physician side, or we may need to add functionality where the user's physicians can validate the data during their routine check-ups. 
 
 #### *4. What skills would additional collaborators ideally have?*
+As mentioned above, additional collaborators may have more knowledge to develop a physician-side application.
 
-### 3 - Months Plan
+
+### 3-Months Plan
 
 
 ## Reproduction: *How to reproduce the findings!*
