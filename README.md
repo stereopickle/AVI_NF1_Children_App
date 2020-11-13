@@ -41,7 +41,7 @@ As mentioned above, additional collaborators may have more knowledge to develop 
 
 
 ### 3-Months Plan
-
+Please see this document for our 3 months plan: [LINK](https://docs.google.com/document/d/1PI4Vg7HPtnKMQGhNRJHudb3-NnBhCpoE_-IZRypxpt4/edit?usp=sharing)
 
 ## Reproduction: *How to reproduce the findings!*
 
