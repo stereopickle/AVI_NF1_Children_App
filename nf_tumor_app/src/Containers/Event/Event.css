@@ -1,0 +1,154 @@
+div.Event {
+    margin: auto;
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form.Event-Form {
+    margin: auto;
+    width: 90vw;
+    border-radius: 25px;
+    background-color: rgb(247, 182, 122);
+    
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.Event form.Event-Form button {
+    height: 3rem;
+    width: 40%;
+    border: none;
+    background-color: rgb(253, 140, 10);
+    box-shadow: 0px 2px 4px 2px rgba(80, 60, 10, .3);
+    border-radius: 25px;
+    margin: 2rem 0 2rem 0;
+}
+
+div.Event-Text {
+    margin: 1rem 0 1rem 0;
+    background-color: inherit;   
+}
+
+div.Event-Description, div.Event-Description label {
+    margin: auto;
+    background-color: inherit;
+}
+
+div.Event-Description textarea {
+    background-color: rgb(250, 219, 191);
+    border-radius: 25px;
+    border: none;
+    margin: auto;
+    padding: 1rem .5rem 1rem .5rem;
+    height: 9rem;
+}
+
+div.TypeMenu {
+    background-color: rgb(247, 182, 122);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    
+    width: 90%;
+}
+
+div.TypeMenu div.TypeMenu-Option {
+    margin: auto;
+    height: 3.5rem;
+    line-height: 3rem;
+    width: 150px;
+    background-color: rgb(190, 228, 146);
+    border: 3px solid rgb(80, 148, 49);
+    border-radius: 25px;
+}
+
+div.TypeMenu div.TypeMenu-Option:hover {
+    background-color: rgb(80, 148, 49);
+    cursor: pointer;
+    
+}
+
+div.TypeMenu div.TypeMenu-Option.active {
+    border: 3px solid rgb(49, 148, 49);
+    background-color: rgb(49, 148, 49);
+    cursor: pointer;
+
+}
+
+div.TypeMenu div.TypeMenu-Option.active:hover {
+    background-color: rgb(37, 112, 37);
+    cursor: pointer;
+
+}
+
+div.DurationMenu {
+    background-color: rgb(247, 182, 122);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    
+    width: 90%;
+}
+
+div.DurationMenu div.DurationMenu-Option {
+    margin: auto;
+    height: 3.5rem;
+    line-height: 3rem;
+    width: 150px;
+    background-color: rgb(190, 228, 146);
+    border: 3px solid rgb(80, 148, 49);
+    border-radius: 25px;
+}
+
+div.DurationMenu div.DurationMenu-Option:hover {
+    background-color: rgb(80, 148, 49);
+    cursor: pointer;
+    
+}
+
+div.DurationMenu div.DurationMenu-Option.active {
+    border: 3px solid rgb(49, 148, 49);
+    background-color: rgb(49, 148, 49);
+    cursor: pointer;
+
+}
+
+div.DurationMenu div.DurationMenu-Option.active:hover {
+    background-color: rgb(37, 112, 37);
+    cursor: pointer;
+
+}
+
+div.Intensity-scale {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    column-gap: 2px;
+    background-color: inherit;
+}
+
+div.Intensity {
+    background-color: rgb(247, 182, 122);
+}
+
+div.Intensity-scale-unit {
+    height: 40px;
+    width: 40px;
+    background-color: inherit;
+    background-color: rgb(182, 135, 226);
+}
+div#isu-first {
+    border-radius: 25px 0 0 25px;
+}
+
+div#isu-last {
+    border-radius: 0 25px 25px 0;
+}

@@ -1,0 +1,8 @@
+div.Monster {
+    background-color: rgb(247, 182, 122);
+    height: 200px;
+    background-image: url('../../Assets/images/untitled_artwork.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

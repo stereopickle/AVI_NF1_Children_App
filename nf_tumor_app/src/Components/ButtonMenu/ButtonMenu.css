@@ -1,0 +1,6 @@
+div.ButtonMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4px;
+
+}

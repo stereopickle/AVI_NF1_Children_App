@@ -1,0 +1,43 @@
+div.Diary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(250, 219, 191);
+}
+
+div.Diary-wrapper {
+    width: 95vw;
+    height: 70vh;
+    background-color: rgb(247, 182, 122);
+    border-radius: 25px;
+
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+div.Diary-text-wrapper label {
+    width: 90%;
+    text-align: left;
+    margin-bottom: 1rem;
+    background-color: inherit;
+}
+div.Diary-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: inherit;
+}
+div.Diary-text-wrapper textarea {
+    width: 90%;
+    background-color: rgb(250, 219, 191);
+    border: none;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+div.Diary-button-wrapper {
+    margin: auto;
+    background-color: inherit;
+}

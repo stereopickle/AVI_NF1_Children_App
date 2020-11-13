@@ -1,0 +1,18 @@
+
+div.BodyCanvas  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+       
+}
+
+div.BodyCanvas canvas {
+
+    border-radius: 25px;
+    background-image: url('../../Assets/images/body\ outline.svg'), url('../../Assets/images/nervous\ system.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 130%, 120%;
+    background-position: center, center 0px;
+       
+}

@@ -1,0 +1,112 @@
+div.Navbar {
+    background-color: rgb(247, 182, 122);
+}
+
+ul.Navbar-Menu {
+    background-color: rgb(247, 182, 122);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    row-gap: 20px;
+}
+
+li.Navbar-MenuItem {
+    list-style: none;
+    height: 3rem;
+}
+
+div.Navbar-CTAItem {
+    list-style: none;
+    height: 3rem;
+    width: 100%;
+    margin: auto;
+}
+
+li.Navbar-MenuItem a{
+    text-decoration: none;
+    color:rgb(32, 39, 39);
+    
+}
+
+div.Navbar-CTAItem a{
+    text-decoration: none;
+    color: rgb(32, 39, 39);
+    
+}
+
+li.Navbar-MenuItem a:hover{
+    font-weight: bold;
+    /* text-decoration: underline; */
+}
+
+li#MenuItem-History {
+    margin: auto;
+    height: 3.5rem;
+    width: 150px;
+    background-color: rgb(164, 252, 164);
+    border: 3px solid rgb(49, 148, 49);
+    border-radius: 25px;
+}
+
+li#MenuItem-History a{
+    background-color: rgb(164, 252, 164);
+    line-height: 3rem;
+    font-size: 1.2rem;
+
+}
+
+li#MenuItem-Messages {
+    margin: auto;
+    height: 3.5rem;
+    width: 150px;
+    background-color: rgb(122, 122, 228);
+    border: 3px solid rgb(77, 77, 230);
+    border-radius: 25px;
+}
+
+li#MenuItem-Messages a{
+    background-color: rgb(122, 122, 228);
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
+li#MenuItem-Setting {
+    margin: auto;
+    height: 3.5rem;
+    width: 150px;
+    background-color: rgb(246, 248, 126);
+    border: 3px solid rgb(233, 236, 32);
+    border-radius: 25px;
+}
+li#MenuItem-Setting a{
+    background-color: rgb(246, 248, 126);
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
+li#MenuItem-Export {
+    margin: auto;
+    height: 3.5rem;
+    width: 150px;
+    background-color: rgb(191, 104, 212);
+    border: 3px solid rgb(134, 42, 146);
+    border-radius: 25px;
+}
+li#MenuItem-Export a{
+    background-color: rgb(191, 104, 212);
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
+
+div#MenuItem-Event {
+    height: 3.5rem;
+    width: 410px;
+    background-color: rgb(253, 140, 10);
+    box-shadow: 0px 2px 4px 2px rgba(80, 60, 10, .3);
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+div#MenuItem-Event a{
+    background-color: rgb(253, 140, 10);
+    line-height: 3rem;
+    font-size: 1.2rem;
+}

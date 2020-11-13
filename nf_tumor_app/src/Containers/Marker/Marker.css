@@ -1,0 +1,54 @@
+div.Marker {
+    margin: auto;
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.Marker-toggleMenu {
+    display: flex;
+    flex-direction: row;
+    
+    width: 100px;
+    border: 1px  rgb(83, 177, 145) solid;
+    border-radius: 3px;
+}
+
+div.MarkerUnit {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+div.Marker-Location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    border: 1px  rgb(83, 177, 145) solid;
+    border-radius: 3px;
+    padding: 1rem 0 1rem 0;
+}
+
+div.Marker-Location input{
+    margin: auto;
+    text-align: center;
+    width: 60px;
+   
+}
+
+div.Marker-toggleMenuItem {
+    width: 50%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    background-color: rgb(109, 221, 184);
+}
+
+div.Marker-toggleMenuItem:hover {
+    cursor: pointer;
+    background-color: rgb(92, 194, 160);
+
+}

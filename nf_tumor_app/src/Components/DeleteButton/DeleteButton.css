@@ -1,0 +1,15 @@
+div.DeleteButton {
+    height: 1.5rem;
+    line-height: 1.4rem;
+    width: 80px;
+    background-color: rgb(248, 99, 99);
+    border: 1px rgb(211, 82, 82) solid;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+div.DeleteButton:hover {
+    background-color: rgb(226, 88, 88);
+
+}

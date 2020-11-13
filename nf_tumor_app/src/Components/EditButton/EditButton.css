@@ -1,0 +1,15 @@
+div.EditButton {
+    height: 1.5rem;
+    line-height: 1.4rem;
+    width: 80px;
+    background-color: rgb(99, 238, 248);
+    border: 1px rgb(74, 184, 192) solid;
+    border-radius: 3px;
+    color: darkslategray;
+    cursor: pointer;
+}
+
+div.EditButton:hover {
+    background-color: rgb(91, 222, 231);
+
+}

@@ -1,0 +1,16 @@
+
+div.BodyLocation-Location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    border-radius: 3px;
+    padding: 1rem 0 1rem 0;
+}
+
+div.BodyLocation-Location input{
+    margin: auto;
+    text-align: center;
+    width: 60px;
+   
+}
