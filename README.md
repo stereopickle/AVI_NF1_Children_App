@@ -46,18 +46,8 @@ As mentioned above, additional collaborators may have more knowledge to develop 
 ## 3-Months Plan
 Please see this document for our 3 months plan: [LINK](https://docs.google.com/document/d/1PI4Vg7HPtnKMQGhNRJHudb3-NnBhCpoE_-IZRypxpt4/edit?usp=sharing)
 
-## Reproduction
-For the models used, please refer to RESEARCH folder for full exploratory steps and model building. 
-
-### Docker
-
-*The Docker image contains <R/jupyter> notebooks of all analyses and the dependencies to run them. *Be sure to note if you need any special credentials to access data for these analyses, **don't package restricted data** in your containers!*
-
-Instructions for running the following notebooks: *be sure to adjust these instructions as necessary! check out https://github.com/Sage-Bionetworks/nfhackathon2020/ for example containers and instructions*
-
-1. `docker pull <your dockerhub repo>/<this container>` command to pull the image from the DockerHub
-2. `docker run <your dockerhub repo>/<this container>` Run the docker image from the master shell script
-
-### Important Resources *: primary data, github repository, Synapse project, dockerfile link etc.*
+## Important Links
+[**Project Page**] (https://nfhack-platform.bemyapp.com/#/projects/5fadbf8bf13058001bb08abc)
+[**Docker Link**] ()
 
 
