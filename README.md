@@ -47,7 +47,7 @@ As mentioned above, additional collaborators may have more knowledge to develop 
 Please see this document for our 3 months plan: [LINK](https://docs.google.com/document/d/1PI4Vg7HPtnKMQGhNRJHudb3-NnBhCpoE_-IZRypxpt4/edit?usp=sharing)
 
 ## Important Links
-[**Project Page**] (https://nfhack-platform.bemyapp.com/#/projects/5fadbf8bf13058001bb08abc)
+[**Project Page**] (https://nfhack-platform.bemyapp.com/#/projects/5fadbf8bf13058001bb08abc)  
 [**Docker Link**] ()
 
 
