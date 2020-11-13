@@ -7,6 +7,9 @@ AVI is a longitudinal data collection app for children with Neurofibromatosis an
 Neurofibromatosis manifests itself in many different symptoms, making it challenging to obtain longitudinal data of the development of potential symptoms through standard questionnaires. It also puts a significant burden on caregivers, parents, and guardians to look out for many possible complications without ways to selectively focus their attention when observing their child's symptoms. Moreover, because Neurofibromatosis is such a rare disease, children may find it difficult to openly communicate their conditions due to feeling isolated and different from their peers.
 
 ## Methods
+
+![AVI_interface_exmple](README_PNG/avi_interface_ex.png)
+
 We approached these problems with three goals in mind.
 ***1. We want to help children with NF accept and be proud of who they are regardless of their medical condition***
 - We created AVI, a virtual pet for children with NF! Avi serves as a companion to help incentivize the child to communicate their feelings and symptoms. As kids log entries consistently, Avi grows and thrives. Avi will develop brighter fur, new facial expressions, and more animation. If the log is neglected, Avi decreases in size and vibrancy. It is the child’s responsibility to care for Avi and, in turn, themselves! 
