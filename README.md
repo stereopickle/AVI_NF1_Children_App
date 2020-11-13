@@ -40,10 +40,11 @@ We need to develop a pipeline to automatically update our models, which will req
 As mentioned above, additional collaborators may have more knowledge to develop a physician-side application.
 
 
-### 3-Months Plan
+## 3-Months Plan
 Please see this document for our 3 months plan: [LINK](https://docs.google.com/document/d/1PI4Vg7HPtnKMQGhNRJHudb3-NnBhCpoE_-IZRypxpt4/edit?usp=sharing)
 
-## Reproduction: *How to reproduce the findings!*
+## Reproduction
+For the models used, please refer to RESEARCH folder for full exploratory steps and model building. 
 
 ### Docker
 
