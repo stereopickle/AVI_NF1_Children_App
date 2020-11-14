@@ -7,6 +7,9 @@ AVI is a longitudinal data collection app for children with Neurofibromatosis an
 Neurofibromatosis manifests itself in many different symptoms, making it challenging to obtain longitudinal data of the development of potential symptoms through standard questionnaires. It also puts a significant burden on caregivers, parents, and guardians to look out for many possible complications without ways to selectively focus their attention when observing their child's symptoms. Moreover, because Neurofibromatosis is such a rare disease, children may find it difficult to openly communicate their conditions due to feeling isolated and different from their peers.
 
 ## Methods
+
+![AVI_interface_exmple](README_PNG/avi_interface_ex.png)
+
 We approached these problems with three goals in mind.
 ***1. We want to help children with NF accept and be proud of who they are regardless of their medical condition***
 - We created AVI, a virtual pet for children with NF! Avi serves as a companion to help incentivize the child to communicate their feelings and symptoms. As kids log entries consistently, Avi grows and thrives. Avi will develop brighter fur, new facial expressions, and more animation. If the log is neglected, Avi decreases in size and vibrancy. It is the child’s responsibility to care for Avi and, in turn, themselves! 
@@ -40,20 +43,11 @@ We need to develop a pipeline to automatically update our models, which will req
 As mentioned above, additional collaborators may have more knowledge to develop a physician-side application.
 
 
-### 3-Months Plan
+## 3-Months Plan
+Please see this document for our 3 months plan: [LINK](https://docs.google.com/document/d/1PI4Vg7HPtnKMQGhNRJHudb3-NnBhCpoE_-IZRypxpt4/edit?usp=sharing)
 
-
-## Reproduction: *How to reproduce the findings!*
-
-### Docker
-
-*The Docker image contains <R/jupyter> notebooks of all analyses and the dependencies to run them. *Be sure to note if you need any special credentials to access data for these analyses, **don't package restricted data** in your containers!*
-
-Instructions for running the following notebooks: *be sure to adjust these instructions as necessary! check out https://github.com/Sage-Bionetworks/nfhackathon2020/ for example containers and instructions*
-
-1. `docker pull <your dockerhub repo>/<this container>` command to pull the image from the DockerHub
-2. `docker run <your dockerhub repo>/<this container>` Run the docker image from the master shell script
-
-### Important Resources *: primary data, github repository, Synapse project, dockerfile link etc.*
+## Important Links
+[**Project Page**](https://nfhack-platform.bemyapp.com/#/projects/5fadbf8bf13058001bb08abc)  
+[**Docker Link**]()
 
 
