@@ -3,6 +3,13 @@ version: '3'
 # initialize section for building the containers
 services:
 # first service (container) name, used to connect
+  nginx:
+    restart: always
+    build: 
+      dockerfile: Dockerfile.dev
+      context: ./nginx
+    ports:
+      - "3050:80"
   postgres:
     image: 'postgres:latest'
     volumes:
