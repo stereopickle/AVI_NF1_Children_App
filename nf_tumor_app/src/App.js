@@ -5,7 +5,7 @@ import "./App.css";
 import { Switch, Route, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 
-import ProtectedRoute from "./Components/ProtectedRoute";
+// import ProtectedRoute from "./Components/ProtectedRoute";
 import Event from "./Containers/Event/Event";
 import History from "./Containers/History/History";
 import Marker from "./Containers/Marker/Marker";
@@ -30,7 +30,7 @@ class App extends Component {
           
           < Route path="/register" component={Register} />
           < Route path="/login" component={Login} />
-          < Route path="/" component={Home} />
+          < Route exact path="/" component={Home} />
           < Route path='/welcome' component={Main} />
           < Route path='/events' component={Event} />
           < Route path='/patientlog' component={History} />

@@ -1,0 +1,28 @@
+# specify version of docker compose 
+version: '3'
+# initialize section for building the containers
+services:
+# first service (container) name, used to connect
+  python-server:
+# it is built using the base image, so specify image
+    image: 'redis'
+# second service (container) name, used to connect
+  react-server:
+    build: ./nf_tumor_app
+    ports:
+      - "3000:3000"
+  db:
+    image: postgres
+    volumes:
+      - ./tmp/db:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: password
+  ruby-app:
+    build: ./nf_tumor_backend
+    command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
+    volumes:
+      - .:/myapp
+    ports:
+      - "3001:3001"
+    depends_on:
+      - db
