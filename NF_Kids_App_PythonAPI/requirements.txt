@@ -1,0 +1,7 @@
+# Requirements without Version Specifiers
+
+flask 
+joblib 
+pandas 
+nltk 
+gensim
