@@ -9,7 +9,7 @@ services:
       - ./tmp/db:/var/lib/postgresql/data
     environment:
       POSTGRES_PASSWORD: password
-  server:
+  api:
     build:
       dockerfile: Dockerfile.dev
       context: ./nf_tumor_backend/
