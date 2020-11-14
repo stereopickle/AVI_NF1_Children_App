@@ -16,8 +16,6 @@ services:
     command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3001 -b '0.0.0.0'"
     volumes:
       - ./nf_tumor_backend:/myapp
-    ports:
-      - "3001:3001"
     depends_on:
       - postgres
     environment:
@@ -26,3 +24,16 @@ services:
       - POSTGRES_PASSWORD=postgres_password
       - POSTGRES_PORT=5432
       - POSTGRES_HOST=postgres
+  client:
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./nf_tumor_app
+    volumes:
+      - /usr/src/app/node_modules
+      - ./nf_tumor_app:/usr/src/app
+  datascience:
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./NF_Kids_App_PythonAPI
+    volumes:
+      - ./NF_Kids_App_PythonAPI:/usr/src/app
